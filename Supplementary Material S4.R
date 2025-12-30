@@ -1,6 +1,6 @@
 ### Paper title: A novel method to estimate actual infrastructure-induced mortality by integrating sampling biases
 
-### Supplementary Material S4s
+### Supplementary Material S4
 
 ### R script to simulate and analyse road survey census data for vertebrate groups only affected by carcass persistence bias (mammals g5)
 
@@ -296,5 +296,6 @@ run_simulation_mammals_g5 <- function() {
 
 # Run the simulation function
 run_simulation_mammals_g5()
+
 
 print("All Mammals G5 simulations completed successfully.")
