@@ -1,8 +1,16 @@
-# A-novel-method-to-estimate-actual-infrastructure-induced-mortality-by-integrating-sampling-biases
+# A-method-to-estimate-actual-infrastructure-induced-mortality-by-integrating-sampling-biases
 
-This repository contains data files and code for the publication *A novel method to estimate actual infrastructure-induced mortality by integrating sampling biases*.
+This repository contains data files and code for the publication *A method to estimate actual infrastructure-induced mortality by integrating sampling biases*.
 
 This study estimates the total number of roadkills occurring on a road by accounting for the three main biases present in carcass surveys: carcass-location bias, carcass-persistence bias, and carcass-observation bias.
+
+Installation & Reproducibility
+Here we use **renv** to manage package dependencies. To replicate the exact computational environment:
+
+1. Clone or download this repository.
+2. Open the project in RStudio (by double-clicking the `Supplementary_Material.Rproj` file).
+3. Run the following command in the R console to install all necessary libraries:
+renv::restore()
 
 ABSTRACT
 1. Human infrastructures are among the most impactful threads to wildlife. While estimates exist on the number of animals killed by these structures over a given period, such estimates typically do no account for several detection biases. Consequently, true mortality rates may be severely underestimated, as well as their impact on populations and species.
