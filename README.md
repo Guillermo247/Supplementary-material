@@ -8,7 +8,7 @@ Installation & Reproducibility
 Here we use **renv** to manage package dependencies. To replicate the exact computational environment:
 
 1. Clone or download this repository.
-2. Open the project in RStudio ( `Supplementary_Material.Rproj` file).
+2. Open the project in RStudio (`Supplementary_Material.Rproj` file).
 3. Run the following command in the R console to install all necessary libraries:
 ```r
 renv::restore()
