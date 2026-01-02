@@ -34,6 +34,20 @@
 #medium_and_large_carnivores = Mammals G4
 #ungulates = Mammals G5
 
+# -----------------------------------------------------------------------------
+# RENV & LIBRARIES
+# This project uses the 'renv' package to manage dependencies and ensure 
+# reproducibility. To replicate the exact computational environment:
+#
+# 1. Download and open Supplementary_Material project in RStudio (preferably via
+#    the .Rproj file).
+# 2. If this is your first time running this code on this machine, uncomment 
+#    and run the line below to install the specific package versions required:
+#
+#    renv::restore()
+#
+# Note: You do not need to manually run 'install.packages()'.
+# -----------------------------------------------------------------------------
 #load necessary packages
 library(ggplot2)
 library(ggdist)
@@ -2873,6 +2887,7 @@ p <- ggplot(final_RRMSE, aes(x = log_RRMSE, y = scenario, color = scenario)) +
 
 # Display the plot
 print(p)
+
 
 
 
