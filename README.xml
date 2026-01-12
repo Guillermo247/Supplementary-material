@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="e0127452-c238-4bd5-80f1-16b9087e4d47" system="uuid" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <abstract>
+    <para>This dataset contains the supplementary materials (PDFs, R scripts, simulated data, Bayesian outputs, and diagnostic plots) supporting the findings of the associated manuscript. Author details have been removed for peer review.</para>
+  </abstract>
+  <contact>
+    <individualName>
+      <givenName>Anonymous</givenName>
+      <surName>Author</surName>
+    </individualName>
+    <organizationName>Institution concealed for double-blind review</organizationName>
+    <electronicMailAddress>blind.review@example.com</electronicMailAddress>
+  </contact>
+  <creator>
+    <individualName>
+      <givenName>Anonymous</givenName>
+      <surName>Author</surName>
+    </individualName>
+    <organizationName>Institution concealed for double-blind review</organizationName>
+    <electronicMailAddress>blind.review@example.com</electronicMailAddress>
+  </creator>
+  <keywordSet>
+    <keyword>Road Ecology</keyword>
+    <keyword>Bayesian statistics</keyword>
+    <keyword>N-mixture modelling</keyword>
+    <keyword>roadkill records</keyword>
+    <keyword>survey bias correction</keyword>
+  </keywordSet>
+  <language>English</language>
+  <otherEntity>
+    <entityName>Supplementary Material S1.pdf</entityName>
+    <entityDescription>Description of the methodology used to estimate average carcass persistence probability for the studied vertebrate groups. It details the data adaptation from Santos et al. (2011) and the area-under-the-curve calculation method.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S1.pdf</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S2.R</entityName>
+    <entityDescription>R script to simulate and analyse road survey census data for vertebrate groups affected by carcass location and persistence bias.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S2.R</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S3.R</entityName>
+    <entityDescription>R script to simulate and analyse road survey census data for vertebrate groups not affected by carcass location bias.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S3.R</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S4.R</entityName>
+    <entityDescription>R script to simulate and analyse road survey census data for vertebrate groups only affected by carcass persistence bias (mammals g5).</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S4.R</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S5</entityName>
+    <entityDescription>Seasonal trends .csv for each vertebrate group.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S5</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S6.R</entityName>
+    <entityDescription>R script to simulate and analyse road survey census data for amphibians and reptiles g1 groups only accounting for peak abundance months.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S6.R</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S7.pdf</entityName>
+    <entityDescription>Workflow describing the simulation scenarios and prior specifications (accurate, inaccurate, uninformative) used to assess prior sensitivity analyses.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S7.pdf</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S8.R</entityName>
+    <entityDescription>R script to simulate and analyse road survey census data for the prior sensitivity analysis for vertebrate groups  affected by carcass location and persistence bias.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S8.R</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S9.R</entityName>
+    <entityDescription>R script to simulate and analyse road survey census data for the prior sensitivity analysis for vertebrate groups only affected by carcass persistence bias.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S9.R</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S10.R</entityName>
+    <entityDescription>R script to simulate and analyse road survey census data for the Prior Sensitivity Analysis for vertebrate groups only affected by carcass location bias (Mammals G5).</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S10.R</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S11.R</entityName>
+    <entityDescription>R script to calculate Relative Root Mean Squared Error (RRMSE) values for total number of roadkills estimation (N_t).</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S11.R</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S12.R</entityName>
+    <entityDescription>R script to calculate Relative Root Mean Squared Error (RRMSE) values for carcass location, persistence and observation probability.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S12.R</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S13.pdf</entityName>
+    <entityDescription>Map of the study area and detailed characteristics (coordinates, habitat, speed limit, traffic volume) of the nine road transects monitored during the case study.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S13.pdf</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S14.pdf</entityName>
+    <entityDescription>Figure displaying the Relative Root Mean Squared Error (RRMSE) of the estimated total number of roadkills (Nt,D) for each vertebrate group. It evaluates model accuracy across different simulation scenarios of variable data, prior standard errors, and sampling effort (10 vs 100 transects).</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S14.pdf</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S15.pdf</entityName>
+    <entityDescription>Plots illustrating the overlap between the averaged simulated values of total roadkills per transect and the 95% credible intervals of the Bayesian posterior estimates, across all vertebrate groups and simulation scenarios of variable data.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S15.pdf</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S16.pdf</entityName>
+    <entityDescription>Plots illustrating the overlap between simulated and recovered/estimated probabilities for carcass location (pL), persistence (pP), and observation (pOm).</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S16.pdf</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S17.pdf</entityName>
+    <entityDescription>Plots results of the prior sensitivity analyses, displaying the posterior estimation overlap for total roadkills (Nt,D) and bias probabilities (pL, pP, pOm) across all vertebrate groups and prior scenarios.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S17.pdf</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Supplementary Material S18</entityName>
+    <entityDescription>Case study dataset and code for analysing the differences between roadkills observed per survey method.</entityDescription>
+    <physical>
+      <objectName>Supplementary Material S18</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Appendix A.zip</entityName>
+    <entityDescription>Processed sample of simulated data and the results from simulation scenarios of variable data analysis.</entityDescription>
+    <physical>
+      <objectName>Appendix A.zip</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Appendix B.zip</entityName>
+    <entityDescription>Files containing the simulated values of total roadkills (Nitd) and the results of the Bayesian analysis for the simulation scenarios of variable data, prior sensitivity analyses, and the case study.</entityDescription>
+    <physical>
+      <objectName>Appendix B.zip</objectName>
+    </physical>
+  </otherEntity>
+  <otherEntity>
+    <entityName>Appendix C.zip</entityName>
+    <entityDescription>Convergence diagnostics (ESS values and traceplots) for the Bayesian MCMC chains across the simulation scenarios of variable data, prior sensitivity analyses, and the case study.</entityDescription>
+    <physical>
+      <objectName>Appendix C.zip</objectName>
+    </physical>
+  </otherEntity>
+  <title>Supplementary Material for: A method to estimate actual infrastructure-induced mortality by integrating sampling biases</title>
+</eml:eml>
